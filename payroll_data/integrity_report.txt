@@ -1,0 +1,13 @@
+INTEGRITY REPORT
+
+The AuditorThread runs continuously in the background.
+
+Every 5 seconds it scans the payroll_data directory
+and counts the number of files.
+
+If the current count differs from the previous count,
+the system prints a security alert message.
+
+This allows the application to detect unauthorized
+file additions or deletions automatically without
+requiring user interaction.
